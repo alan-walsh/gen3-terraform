@@ -70,6 +70,7 @@ data "aws_iam_policy_document" "irsa" {
       "ssm:GetParameter",
       "iam:PassRole",
       "iam:*InstanceProfile",
+      "iam:ListInstanceProfiles",
       "ec2:DescribeImages",
       "ec2:RunInstances",
       "ec2:DescribeSubnets",
